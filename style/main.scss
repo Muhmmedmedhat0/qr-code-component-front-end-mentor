@@ -9,6 +9,7 @@ body {
   @include display-flex(column, nowrap);
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 .qr--component {
   margin: 5.5rem 1.5rem;

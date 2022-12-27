@@ -53,6 +53,7 @@ body {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
 .qr--component {
