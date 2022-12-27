@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  line-height: 1.1;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  background-color: hsl(212deg, 45%, 89%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr--component {
+  margin: 5.5rem 1.5rem;
+  padding: 1rem;
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 1.2rem;
+}
+@media (min-width: 375px) {
+  .qr--component {
+    max-width: 350px;
+  }
+}
+
+.img--container {
+  border-radius: 0.7rem;
+  overflow: hidden;
+}
+
+.qr--content {
+  margin: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.qr--content .qr--content__title {
+  color: hsl(218deg, 44%, 22%);
+  text-align: center;
+}
+.qr--content .qr--content__description {
+  color: hsl(220deg, 15%, 55%);
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
