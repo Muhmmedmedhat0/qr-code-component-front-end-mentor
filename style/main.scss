@@ -9,7 +9,7 @@ body {
   @include display-flex(column, nowrap);
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 .qr--component {
   margin: 5.5rem 1.5rem;
@@ -35,6 +35,7 @@ body {
   .qr--content__title {
     color: map-get($colors, dark-blue);
 		text-align: center;
+    font-size: 1.5rem;
 
   }
   .qr--content__description {
