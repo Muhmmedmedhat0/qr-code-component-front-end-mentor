@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution]()
-- [Live version]()
+- [Solution](https://github.com/Muhmmedmedhat0/qr-code-component-front-end-mentor)
+- [Live version](https://qr-code-component-front-end-mentor-five.vercel.app/)
 
 ## My process
 
